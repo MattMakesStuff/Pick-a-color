@@ -33,18 +33,4 @@ Color-picker changing neopixel leds on a raspberrypi
  - Python
  - Neopixel library
 
-**Setup Raspbian**
-Install raspbian (Download [here](https://www.raspberrypi.org/downloads/raspbian/) ) onto sd card 
-[Installation instructions](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
-
-**Install neopixel library**
-
-    sudo apt-get update
-    sudo apt-get -y install build-essential python-dev git scons swig python-pip
-    
-    git clone https://github.com/jgarff/rpi_ws281x.git
-    cd rpi_ws281x
-    scons
-    
-    cd python
-    sudo python setup.py install
+[Install Instructions](https://github.com/MattMakesStuff/Pick-a-color/wiki/Install-Instructions)
