@@ -17,7 +17,7 @@
       
       // Sends the red green and blue data to our raspberrypi
       function colorChangeHandler(color) {
-        $.get("http://" + rpi + "/?red=" + color.rgb['r'] + "&green=" + color.rgb['g'] + "&blue=" + color.rgb['b']);
+        $.get("http://" + rpi + ":8080/?red=" + color.rgb['r'] + "&green=" + color.rgb['g'] + "&blue=" + color.rgb['b']);
       }
     
       // Sets up the color wheel picker
