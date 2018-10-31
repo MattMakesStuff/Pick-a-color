@@ -1,6 +1,8 @@
 # Pick-a-color
 Color-picker changing neopixel leds on a raspberrypi
 
+**Youtube video tutorial COMING SOON!***
+
 **Hardware requirements**
  - A computer with an sd card reader
  - Either an ssh client to remote program the raspberry pi
